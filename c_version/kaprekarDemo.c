@@ -13,7 +13,7 @@ printf("kaprekarUtils.h\n");
 
   int variable = atoi(argv[1]);
 
-  if(isKaprekar(variable)) {
+  if((variable)) {
     printf("%d is a Kaprekar Number!\n", variable);
   } else {
     printf("%d is not a Kaprekar Number!\n", variable);
