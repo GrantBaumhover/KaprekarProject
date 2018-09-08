@@ -10,12 +10,12 @@ int main(int argc, char **argv) {
     exit(1);
   }
 
-  int n = atoi(argv[1]);
+  int variable = atoi(argv[1]);
 
-  if(isKaprekar(n)) {
-    printf("%d is a Kaprekar Number!\n", n);
+  if(isKaprekar(variable)) {
+    printf("%d is a Kaprekar Number!\n", variable);
   } else {
-    printf("%d is not a Kaprekar Number!\n", n);
+    printf("%d is not a Kaprekar Number!\n", variable);
   }
 
   return 0;
